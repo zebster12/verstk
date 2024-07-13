@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+
+    text-align: center;
+    color: #FFFFFF; 
+    display: inline-block;
+
+    padding: 12px 24px;
+    background-color: #1B54DD;
+        margin: 0 auto;
+       
+    border-radius: 2px;
+
+}
+
+.btn:hover{
+    opacity: 0.7;
+    
+}
+.btn:active{
+    background-color: rgb(243, 74, 74);
+
+}
+.btn:focus{
+    background-color: rgb(247, 162, 162);
+
+}
+
+
+
+
+
+.container{
+    max-width: 480px;
+    margin: 0 auto;
+
+}
+
+
+.header{
+    background-color: #1B54DD;
+    display: flex;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 42px;
+    margin-bottom: 32px;
+    width: 100vw;
+}
+
+
+.logo {
+
+}
+.img__logo {
+
+}
+
+
+
+.main {
+   
+
+   
+}
+
+.title {
+
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.btn {
+ margin-bottom: 32px;
+ 
+ 
+ 
+}
+.main-img {
+    display: block;
+    margin-bottom: 32px;
+    background-image: url('./img/Photo-16x9.jpg');
+    background-size: auto auto;
+    width:480px ;
+    height:270px ;
+}
+.main-text {
+    color: #1A2028;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 10px;
+}
+.footer {
+    
+    background-color: #E8E8E8;
+    
+}
+
+.footer__wrapper{
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+.social {
+
+}
+.social__list {
+    display: flex;
+    gap: 32px;
+}
+.social__item {
+}
+.social__link {
+    
+}
+.social__img {
+}
+.footer__link {
+    font-size: 14px;
+}
+.copyrite {
+    color:#262626;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+.copyrite__text {
+    text-align: center;
+    line-height: 16px;
+    font-size: 10px;
+    
+}
+.footer__mark {
+    
+}
+
+
+@media (max-width:280px) {
+.header{
+    
+}
+.main-img {
+    background-size: 240px 135px;
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 135px;
+}
+
+.main-text {
+    display: block;
+ width: 240px;
+}
+    
+}
